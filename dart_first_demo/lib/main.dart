@@ -18,12 +18,17 @@ runApp(const MainApp());
         ),
          body: Center(
           child:Container(
-            color: Colors.deepOrange,
             height: 200,
             width: 400,
+            decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),color: Colors.deepOrangeAccent,),
             alignment: Alignment.center,
-            child: Text('App body goes here!!!'),
-
+            child: Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(10),color: Colors.deepPurpleAccent,),
+                padding: EdgeInsets.all(10),
+                child: Text("Nested Container"),
+            )
           ),
          ),
        ),
