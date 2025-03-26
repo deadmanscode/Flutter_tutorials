@@ -23,12 +23,22 @@ runApp(const MainApp());
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),color: Colors.deepOrangeAccent,),
             alignment: Alignment.center,
-            child: Container(
+            child: Row(
+              children: [
+                Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10),color: Colors.deepPurpleAccent,),
                 padding: EdgeInsets.all(10),
-                child: Text("Nested Container"),
-            )
+                child: Text("Nested Container-1"),
+            ),
+            Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(10),color: Colors.amber,),
+                padding: EdgeInsets.all(10),
+                child: Text("Nested Container-2"),
+            ),
+              ],
+            ),
           ),
          ),
        ),
