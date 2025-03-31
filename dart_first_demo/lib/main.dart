@@ -16,7 +16,7 @@ class MainApp extends StatelessWidget {
           backgroundColor: Colors.deepOrange,
           centerTitle: true,
         ),
-        body: Column(
+        body: ListView(
           children: [
             Container(
               decoration: BoxDecoration(
@@ -42,7 +42,7 @@ class MainApp extends StatelessWidget {
                     "Rider : ",
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                   ),
-                  Text("Distance : "),
+                  Text("Position : "),
                   Text(
                     "Distance : ",
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
@@ -74,7 +74,7 @@ class MainApp extends StatelessWidget {
                     "Rider : ",
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                   ),
-                  Text("Distance : "),
+                  Text("Position : "),
                   Text(
                     "Distance : ",
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
@@ -106,7 +106,7 @@ class MainApp extends StatelessWidget {
                     "Rider : ",
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                   ),
-                  Text("Distance : "),
+                  Text("Position : "),
                   Text(
                     "Distance : ",
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
@@ -138,7 +138,7 @@ class MainApp extends StatelessWidget {
                     "Rider : ",
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                   ),
-                  Text("Distance : "),
+                  Text("Position : "),
                   Text(
                     "Distance : ",
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
@@ -170,7 +170,7 @@ class MainApp extends StatelessWidget {
                     "Rider : ",
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                   ),
-                  Text("Distance : "),
+                  Text("Position : "),
                   Text(
                     "Distance : ",
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
@@ -202,7 +202,7 @@ class MainApp extends StatelessWidget {
                     "Rider : ",
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                   ),
-                  Text("Distance : "),
+                  Text("Position : "),
                   Text(
                     "Distance : ",
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
@@ -234,7 +234,7 @@ class MainApp extends StatelessWidget {
                     "Rider : ",
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                   ),
-                  Text("Distance : "),
+                  Text("Position : "),
                   Text(
                     "Distance : ",
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
@@ -266,7 +266,7 @@ class MainApp extends StatelessWidget {
                     "Rider : ",
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                   ),
-                  Text("Distance : "),
+                  Text("Position : "),
                   Text(
                     "Distance : ",
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
@@ -298,7 +298,7 @@ class MainApp extends StatelessWidget {
                     "Rider : ",
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                   ),
-                  Text("Distance : "),
+                  Text("Position : "),
                   Text(
                     "Distance : ",
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
