@@ -24,9 +24,9 @@ class MainApp extends StatelessWidget {
               borderRadius: BorderRadius.circular(20),
               color: Colors.deepOrangeAccent,
             ),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.start,
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Container(
                   decoration: BoxDecoration(
